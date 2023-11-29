@@ -138,7 +138,7 @@
 	    							</label>
 	    							<label class="btn btn-primary">
 	    								<input type="radio" id="memGender" name="memGender"
-	    								autocomplete="off"  value="여자" checked/>여자
+	    								autocomplete="off"  value="여자" />여자
 	    							</label>
 	    						</div>
 	    					</div>
@@ -224,7 +224,7 @@
 	} */
 	
 	.container {
-	  max-width: 50%; /* 또는 원하는 퍼센트 값으로 설정 */
+	  max-width: 100%; /* 또는 원하는 퍼센트 값으로 설정 */
 	  margin: auto; /* 패널을 중앙에 배치 */
 	  /* 필요한 경우 추가 스타일링 */
 	}

@@ -59,8 +59,6 @@ public class MemberController {
 			return "redirect:/memJoin.do"; // ${msgType}, ${msg}
 		} // if
 		
-		m.setMemProfile(""); // 이미지는 없다는의미로 "" null과 ""은 달라서 ""로 씀
-		
 		// 회원을 테이블에 저장하기
 		int result = memberMapper.register(m);
 		if(result==1) { // 회원가입 성공 메시지

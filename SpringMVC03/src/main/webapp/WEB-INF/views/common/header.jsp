@@ -14,8 +14,17 @@
 		      <div>
 		        <a href="${contextPath}/" class="hover-effect">HOME</a>
 				<br>
-		        <a href="http://192.168.0.161:8501/" class="hover-effect">AFRS</a>
+		        <a href="http://192.168.20.61:8502" class="hover-effect">AFRS</a>
 		        <br>
+		        
+		        <!-- 관리자 로그인을 한다면 -->
+		        <c:if test="${!empty mvo.memAdmin}">
+		        
+					<a href="http://192.168.20.61:8501" class="hover-effect">AFRS_관리자</a>
+					<br>
+					
+		        </c:if>
+		        
 		        <a href="boardMain.do" class="hover-effect">Q&A</a>
 		      </div> <!-- <ul class="nav navbar-nav"> -->
 	</div> <!-- <div id="mySidepanel" class="sidepanel"> -->
@@ -59,6 +68,7 @@
 	            		로그아웃
 	            	</span>
 	           	</a>
+	           	
        </div> <!-- <div class="container-right"> -->
      </c:if>
 	
@@ -77,8 +87,32 @@
 	}
 	
 	function closeNav() {
-		document.getElementById("mySidepanel").style.width = "0";
+		document.getElementById("mySidepanel").style.width = "0px";
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	// 로그인을 해야 보이는 부분
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 </script>
 
