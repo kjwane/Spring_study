@@ -180,6 +180,15 @@
 	  /* 필요한 경우 추가 스타일링 */
 	}
 	
+	
+	body {
+	  height: 804px;
+	  display:flex;
+	  /* position:relative; */	
+	  align-items: center;
+	  
+	}
+	
 	</style>
 
 

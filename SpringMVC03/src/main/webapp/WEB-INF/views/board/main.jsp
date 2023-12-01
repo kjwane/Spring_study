@@ -212,8 +212,16 @@
 	  margin: auto; /* 패널을 중앙에 배치 */
 	  /* 필요한 경우 추가 스타일링 */
 	}
+	
+	body {
+	  height: 804px;
+	  display:flex;
+	  /* position:relative; */	
+	  align-items: center;
+	  
+	}
 	</style>
-
+	
   
 </head>
 <body>

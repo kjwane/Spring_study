@@ -35,8 +35,8 @@
 	   --%>
 	    <div class="img-border">
 	    	<!-- 이미지는 resources/images에 넣음 -->
-	    	<img src="${contextPath}/resources/images/AFRS.jpg"
-	    	class="img-responsive" style = "width : 100%; height : 400px;"/>
+	    	<img src="${contextPath}/resources/images/logo.png"
+	    	class="img-responsive" style = "width : 100%; height : 600px;"/>
 	    </div> <!-- <div class="img-border"> -->
 	</div> <!-- <div class="container"> -->	
 			
@@ -67,9 +67,17 @@
  		<style>
 		
 		.container {
-		  max-width: 100%; /* 또는 원하는 퍼센트 값으로 설정 */
+		  max-width: 45%; /* 또는 원하는 퍼센트 값으로 설정 */
 		  margin: auto; /* 패널을 중앙에 배치 */
 		  /* 필요한 경우 추가 스타일링 */
+		}
+		
+		body {
+		  height: 804px;
+		  display:flex;
+		  /* position:relative; */	
+		  align-items: center;
+		  
 		}
 
 

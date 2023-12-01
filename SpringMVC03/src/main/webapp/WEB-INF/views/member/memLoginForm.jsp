@@ -22,7 +22,7 @@
   </script>
   
 </head>
-<body>
+<body id="uhm">
 <div class="container">
   <jsp:include page="../common/header.jsp"/>
   <!-- <h2>로그인 페이지입니다.</h2> -->
@@ -88,9 +88,19 @@
 	
 	.container {
 	  max-width: 100%; /* 또는 원하는 퍼센트 값으로 설정 */
+	  max-height: 100%; /* 또는 원하는 퍼센트 값으로 설정 */
 	  margin: auto; /* 패널을 중앙에 배치 */
 	  /* 필요한 경우 추가 스타일링 */
 	}
+	
+	body {
+	  height: 804px;
+	  display:flex;
+	  /* position:relative; */	
+	  align-items: center;
+	  
+	}
+	
 	
 	</style>
 

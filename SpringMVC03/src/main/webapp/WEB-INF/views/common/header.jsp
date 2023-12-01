@@ -14,13 +14,13 @@
 		      <div>
 		        <a href="${contextPath}/" class="hover-effect">HOME</a>
 				<br>
-		        <a href="http://192.168.20.61:8502" class="hover-effect">AFRS</a>
+		        <a href="http://192.168.20.223:8501" class="hover-effect">AFRS</a>
 		        <br>
 		        
 		        <!-- 관리자 로그인을 한다면 -->
 		        <c:if test="${!empty mvo.memAdmin}">
 		        
-					<a href="http://192.168.20.61:8501" class="hover-effect">AFRS_관리자</a>
+					<a href="http://192.168.20.223:8502" class="hover-effect">AFRS_admin</a>
 					<br>
 					
 		        </c:if>
@@ -124,6 +124,11 @@
 	
 	body {
 	  font-family: "Lato", sans-serif;
+	  height: 804px;
+	  display:flex;
+	  /* position:relative; */	
+	  align-items: center;
+	 
 	}
 	
 	/* 사이드패널 스타일 */
@@ -225,6 +230,10 @@
 		position: relative;
 		width: 100%;
 	}
+	
+	
+	
+	
 	
 	</style>
 	
