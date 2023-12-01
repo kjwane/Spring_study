@@ -90,28 +90,11 @@
 		document.getElementById("mySidepanel").style.width = "0px";
 	}
 	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	// 로그인을 해야 보이는 부분
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	
 </script>
